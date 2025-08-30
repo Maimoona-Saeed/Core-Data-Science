@@ -26,23 +26,19 @@ This project uses the dataset **loangrant.csv** and consists of two main parts: 
 18. Bankruptcies – Number of bankruptcies  
 19. Tax Liens – Number of tax liens  
 
-## Part A – Exploratory Data Analysis
-- Perform EDA with histograms, scatter plots, boxplots, and missing value checks  
-- Identify missing values and replace them with appropriate central tendency (mean, median, or mode) with justification  
-- Detect outliers using boxplot and IQR method, report percentage of data with outliers, and replace appropriately  
-- Perform correlation analysis and report attributes with correlation ≥ 0.6  
-- Standardize the “Years in Current Job” attribute using the given format  
-- Document code with explanations and include snapshots of graphs with descriptions in a compiled PDF  
-- Submit Jupyter Notebook (named with Student ID) and PDF  
+## Task 1 – Exploratory Data Analysis
+EDA was performed to understand the structure and quality of the dataset.  
+- Histograms, scatter plots, and boxplots were used to visualize distributions and relationships.  
+- Missing values were identified and imputed using mean, median, or mode with justification.  
+- Outliers were detected using boxplots and the IQR method, and replaced appropriately (median in most cases).  
+- Correlation analysis was conducted, with attributes above 0.6 correlation highlighted.  
+- The “Years in Current Job” column was standardized into a consistent categorical format.  
 
-## Part B – Machine Learning Models
-- Preprocess dataset (handle missing values, outliers, duplicate instances)  
-- Apply classification models: Decision Tree, Bagging, Boosting, Random Forest, KNN, and SVM  
-- Split dataset into 80% training and 20% testing  
-- Generate confusion matrices for each model  
-- Compute metrics: Accuracy, Sensitivity, Specificity, MCC, ROC curve plots  
-- Write a comparative discussion (minimum 3 pages / ~1000 words)  
-- Prepare slides for a 10-minute presentation  
-- Record a video presentation (camera required except for female students; screen sharing mandatory)  
-- Submit: Video, PDF (results + confusion matrices + discussion), Jupyter Notebook  
+## Task 2 – Machine Learning Models
+Classification models were trained and evaluated on the processed dataset.  
+- Models applied: Decision Tree, Bagging, Boosting, Random Forest, KNN, and Support Vector Machines.  
+- The dataset was split into **80% training and 20% testing**.  
+- Evaluation included confusion matrices, accuracy, sensitivity, specificity, Matthews Correlation Coefficient (MCC), and ROC curve plots.  
+- Results were compared, with ensemble methods (Random Forest, Boosting) performing best overall.  
+
 
